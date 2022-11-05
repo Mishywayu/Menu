@@ -27,6 +27,10 @@ app.get('/menu', (req, res) => {
 app.get('/contact', (req, res) => {
     res.render('Contact');
 });
+//route for order
+app.get('/order', (req, res) => {
+    res.render('Order');
+});
 
 
 //creating a server
