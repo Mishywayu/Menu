@@ -320,10 +320,22 @@ section {
 
 .wrapper a:hover {
     color: #fff;
+    text-decoration: none;
 }
 
 .wrapper a:hover:after {
     width: 100%;
+}
+/* Book page */
+.book-content{
+    width: 100%;
+    height: 100vh;
+    /* background: url(/images/reserved1.jpg) no-repeat center / cover; */
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Menu page */
@@ -339,18 +351,20 @@ section {
     height: 100%;
     background-color: rgba(255, 255, 255, 0.3);
 }
-.overlay h1{
+
+.overlay h1 {
     text-align: center;
     color: white;
     padding-top: 50px;
     font-size: 80px;
 }
 
-.container{
-    background-color: orange;
-    height: 100vh;
+.container {
+    /* background-color: orange; */
+    /* height: 100vh; */
     margin-top: -50px;
 }
+
 .menu-nav nav ul {
     list-style-type: none;
     margin: 0;
@@ -360,61 +374,41 @@ section {
     padding-left: 390px;
     border-bottom: 1px solid grey;
 }
-.menu-nav nav ul li{
+
+.menu-nav nav ul li {
     float: left;
 }
-.menu-nav nav ul li a{
+
+.menu-nav nav ul li a {
     display: block;
     color: black;
     text-align: center;
     text-decoration: none;
 }
+
 .menu-nav nav ul:hover,
-.menu-nav nav ul:active{
+.menu-nav nav ul:active {
     border-bottom: 3px solid brown;
 }
-.menu-nav nav ul li a:hover{
+
+.menu-nav nav ul li a:hover {
     color: burlywood;
 }
-.menu-title{
+
+.menu-title {
     background-color: pink;
     width: 100%;
     height: 20vh;
 }
-.menu-title h2{
+
+.menu-title h2 {
     text-align: center;
     font-family: 'Montserrat';
     padding-top: 20px;
 }
-.menu-title p{
+
+.menu-title p {
     text-align: center;
     font-family: 'Montserrat';
     font-weight: 100;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
